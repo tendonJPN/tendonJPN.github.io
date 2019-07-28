@@ -10,23 +10,23 @@ myImage.onclick = () => {
     }
 }
 
-let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h1');
+// let myButton = document.querySelector('button');
+// let myHeading = document.querySelector('h1');
 
-function setUserName() {
-    let myName = prompt('あなたの名前を入力してください。');
-    localStorage.setItem('name', myName);
-    myHeading.textContent = 'Tendon is cool, ' + myName;
-}
+// function setUserName() {
+//     let myName = prompt('あなたの名前を入力してください。');
+//     localStorage.setItem('name', myName);
+//     myHeading.textContent = 'Tendon is cool, ' + myName;
+// }
 
-if (!localStorage.getItem('name')) {
-    setUserName();
-}
-else {
-    let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Tendon is cool, ' + storedName;
-}
+// if (!localStorage.getItem('name')) {
+//     setUserName();
+// }
+// else {
+//     let storedName = localStorage.getItem('name');
+//     myHeading.textContent = 'Tendon is cool, ' + storedName;
+// }
 
-myButton.onclick = function() {
-    setUserName();
-}
+// myButton.onclick = function() {
+//     setUserName();
+// }
